@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Curriculum
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Algo Bootcamp is an  **intensive 4 week course**.
 
 ## Getting Started
 

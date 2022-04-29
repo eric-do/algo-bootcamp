@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Algo Camp',
-  tagline: 'Be interview ready in 3 weeks',
+  tagline: 'Be interview ready in 4 weeks',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -53,13 +53,18 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Bootcamp',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            to: '/blog',
+            label: 'Blog',
+            position: 'left'
+          },
+          {
+            href: 'https://forms.gle/dQVrepwa3Ccv2nKy6',
+            label: 'Apply',
             position: 'right',
+            className: 'button button--primary button--lg'
           },
         ],
       },
