@@ -14,3 +14,7 @@
   display: flex;
   justify-content: center;
 }
+
+.sectionAlt {
+  background-color: var(--ifm-color-emphasis-200);
+}
