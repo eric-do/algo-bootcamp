@@ -1,13 +1,13 @@
-.features {
+.outcomes {
   display: flex;
   align-items: center;
   padding: 2rem 0;
-  width: 100%;
+  width: 100%
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.outcomeSvg {
+  height: 80px;
+  width: 80px;
 }
 
 .sectionTitle {
