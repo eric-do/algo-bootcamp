@@ -42,7 +42,7 @@ const Outcome = ({ company, Svg }: OutcomeItem) => {
   )
 }
 
-const HomepageFeatures = (): JSX.Element => {
+const HomepageOutcomes = (): JSX.Element => {
   return (
     <section className={styles.outcomes}>
       <div className="container">
@@ -61,4 +61,4 @@ const HomepageFeatures = (): JSX.Element => {
   )
 }
 
-export default HomepageFeatures;
+export default HomepageOutcomes;
