@@ -36,7 +36,6 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <HomepageOutcomes />
         <HompageReviews />
       </main>
     </Layout>
