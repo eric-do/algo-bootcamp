@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Get prepared for interviews by being in an interview environment every day. Learn through constant feedback.
+        Get prepared for interviews by doing practice interviews everyday. Learn through constant feedback.
       </>
     ),
   },
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Bootcamp is intense. Attend live classes from the comfort of your home, and use your free time for rest and recovery.
+        Attend live classes from the comfort of your home. Use your free time for rest and recovery.
       </>
     ),
   },
@@ -57,7 +57,7 @@ export default function HomepageFeatures(): JSX.Element {
     <section className={clsx(styles.features)}>
       <div className="container">
         <h2 className={clsx("text--center margin-bottom--lg", styles.sectionTitle)}>
-            Get real world experience and solidify your algorithm practice
+            Gain interview experience and solidify your algorithm practice
         </h2>
         <div className="row">
           {FeatureList.map((props, idx) => (

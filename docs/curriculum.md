@@ -14,7 +14,6 @@ Each sprint will be intensive. There will be lectures, solo coding, and paired p
 |---|---|
 | Python  | Syntax and common techniques and libraries found in algorithms |
 | Data structures  | Classic data structures and their time and space complexities |
-| Problem solving process  | Techniques for solving any problem |
 
 ## Block 2: Algorithms
 
