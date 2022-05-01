@@ -55,11 +55,10 @@ function Feature({title, Svg, description}: FeatureItem) {
 export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={clsx(styles.features)}>
-
       <div className="container">
-        <div className={styles.sectionTitle}>
-          <h2 className="col">Benefits</h2>
-        </div>
+        <h2 className={clsx("text--center margin-bottom--lg", styles.sectionTitle)}>
+            Get real world experience and solidify your algorithm practice
+        </h2>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

@@ -64,7 +64,7 @@ const config = {
             href: 'https://forms.gle/dQVrepwa3Ccv2nKy6',
             label: 'Apply',
             position: 'right',
-            className: 'button button--primary button--lg'
+            // className: 'button button--primary button--lg'
           },
         ],
       },

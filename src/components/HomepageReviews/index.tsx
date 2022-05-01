@@ -162,7 +162,7 @@ const HomepageReviews = (): JSX.Element => {
           Reviews
         </h2>
         <p className={clsx("text--center margin-bottom--lg", styles.sectionTagline)}>
-          We've personally taught and guided hundreds of students to successful careers as software engineers.
+          I've <strong>personally</strong> taught and guided hundreds of students to successful careers as <strong>software engineers</strong>.
         </p>
         <div className="row">
           <ReviewColumn reviews={ReviewListCol1} />
