@@ -10,7 +10,7 @@ Tuition for the program must be paid upfront. We do not currently accept any oth
 
 | Option  | Description  | Price |
 |---|---|---|
-| Pay upfront | Pay full tuition upfront by first day of class | $2000 |
+| Pay upfront | Pay full tuition upfront by first day of class | TBD - pending research |
 | Income share | Not available | N/A |
 | Scholarships | Not available | N/A |
 | Veteran benefits | Not available | N/A |

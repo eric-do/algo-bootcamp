@@ -75,8 +75,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Bootcamp',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Workshops',
+                to: '/docs/workshops',
               },
             ],
           },
@@ -106,12 +110,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/eric-do',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Algo Camp, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
