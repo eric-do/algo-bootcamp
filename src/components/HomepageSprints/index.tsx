@@ -53,10 +53,10 @@ const SprintTask = ({
 }: SprintTaskItem) => {
 
   return (
-    <div className="col col--3">
+    <div className="col col--3  margin-top--lg">
       <div className={clsx('card', styles.cardContent, styles.sprintTask)}>
         <div className="card__header">
-          <small>{label}</small>
+          <small className={clsx(styles.cardLabel)}>{label}</small>
           <h3>{title}</h3>
         </div>
         <div className="card__body">
