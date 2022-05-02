@@ -1,0 +1,30 @@
+.sprintTasks {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%
+}
+
+.sprintTask {
+  height: 100%;
+}
+
+.cardContent {
+  font-size: 1.2em;
+}
+
+.cardBullet {
+  font-size: 16px;
+}
+
+.sectionAlt {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.sectionTitle {
+  font-size: 32px;
+}
+
+.sectionTagline {
+  font-size: 1.3em;
+}

@@ -6,6 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HomepageOutcomes from '@site/src/components/HomepageOutcomes';
+import HomepageSprints from '@site/src/components/HomepageSprints';
 import HompageReviews from '@site/src/components/HomepageReviews';
 
 function HomepageHeader() {
@@ -36,6 +37,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <HomepageSprints />
         <HompageReviews />
       </main>
     </Layout>
