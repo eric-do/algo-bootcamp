@@ -1,0 +1,12 @@
+.sectionAlt {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.sectionTitle {
+  font-size: 32px;
+}
+
+.sectionButton {
+  text-transform: uppercase;
+  border-radius: calc(var(--ifm-global-radius)/2);
+}
