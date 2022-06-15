@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
@@ -11,10 +13,10 @@ const Reasons: ReasonItem[] = [
   {
     title: 'instruction',
     bullets: [
-      'World class lectures',
-      'Daily interactive lectures',
-      'Focus on mental models and problem solving',
-      'FAANG success background'
+      'World class interactive lectures',
+      'Daily guided whiteboarding',
+      'Successful bootcamp track record',
+      'Proven FAANG outcomes'
     ]
   },
   {
@@ -34,8 +36,11 @@ const HomepageReasons = () => {
   };
 
   return (
-    <section className={clsx(styles.sectionAlt)}>
-      <div className="container">
+    <section className={clsx(
+      'section',
+      styles.sectionAlt
+    )}>
+      <div className="section--inner section--center">
         <h2 className={clsx("text--center margin-bottom--lg", styles.sectionTitle)}>
           Why Algo Bootcamp?
         </h2>
@@ -62,10 +67,47 @@ const HomepageReasons = () => {
           </div>
           <div className="col col--8 row">
             <div className="col col--6">
-              Test
+              {
+                Reasons[reasonIdx].bullets.slice(0, 3).map((bullet, idx) => (
+                  <div
+                    key={idx}
+                    className={clsx(styles.bullet)}
+                  >
+                    <span
+                      className={clsx(styles.bulletIcon)}
+                    >
+                      <FontAwesomeIcon icon={solid('circle-check')} />
+                    </span>
+                    <span>{bullet}</span>
+                  </div>
+                ))
+              }
+              <button
+              className={clsx(
+                'button',
+                'button--primary',
+                styles.buttonCTA
+                )}
+              >
+                {`Apply >`}
+              </button>
             </div>
             <div className="col col--6">
-              Test2
+              {
+                Reasons[reasonIdx].bullets.slice(3).map((bullet, idx) => (
+                  <div
+                    key={idx}
+                    className={clsx(styles.bullet)}
+                  >
+                    <span
+                      className={clsx(styles.bulletIcon)}
+                    >
+                      <FontAwesomeIcon icon={solid('circle-check')} />
+                    </span>
+                    <span>{bullet}</span>
+                  </div>
+                ))
+              }
             </div>
           </div>
         </div>
