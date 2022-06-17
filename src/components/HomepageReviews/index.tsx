@@ -1,4 +1,5 @@
 import React from "react";
+import { faker } from '@faker-js/faker';
 import clsx from "clsx";
 import styles from "./styles.module.css";
 
@@ -13,32 +14,29 @@ type ReviewItem = {
 
 const ReviewListCol1: ReviewItem[] = [
   {
-    name: "Eric",
+    name: faker.name.firstName(),
     linkedIn: "ericdo1",
-    avatar:
-      "https://res.cloudinary.com/dngetymia/image/upload/v1648187630/business-app/profile_eibjrm.jpg",
-    employer: "Galvanize",
-    role: "Instructor",
+    avatar: faker.image.avatar(),
+    employer: faker.company.companyName(),
+    role: "Software Engineer",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc, eget aliquam velit molestie vel. Donec ornare, ipsum in sagittis bibendum, tortor nulla dictum odio, nec efficitur eros eros vitae metus. Praesent non facilisis tellus.",
   },
   {
-    name: "Eric",
+    name: faker.name.firstName(),
     linkedIn: "ericdo1",
-    avatar:
-      "https://res.cloudinary.com/dngetymia/image/upload/v1648187630/business-app/profile_eibjrm.jpg",
-    employer: "Galvanize",
-    role: "Instructor",
+    avatar: faker.image.avatar(),
+    employer: faker.company.companyName(),
+    role: "Software Engineer",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc, eget aliquam velit molestie vel. Donec ornare.",
   },
   {
-    name: "Eric",
+    name: faker.name.firstName(),
     linkedIn: "ericdo1",
-    avatar:
-      "https://res.cloudinary.com/dngetymia/image/upload/v1648187630/business-app/profile_eibjrm.jpg",
-    employer: "Galvanize",
-    role: "Instructor",
+    avatar: faker.image.avatar(),
+    employer: faker.company.companyName(),
+    role: "Software Engineer",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc",
   }
@@ -46,32 +44,29 @@ const ReviewListCol1: ReviewItem[] = [
 
 const ReviewListCol2: ReviewItem[] = [
   {
-    name: "Eric",
+    name: faker.name.firstName(),
     linkedIn: "ericdo1",
-    avatar:
-      "https://res.cloudinary.com/dngetymia/image/upload/v1648187630/business-app/profile_eibjrm.jpg",
-    employer: "Galvanize",
-    role: "Instructor",
+    avatar: faker.image.avatar(),
+    employer: faker.company.companyName(),
+    role: "Software Engineer",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc, eget aliquam velit molestie vel. Donec ornare.",
   },
   {
-    name: "Eric",
+    name: faker.name.firstName(),
     linkedIn: "ericdo1",
-    avatar:
-      "https://res.cloudinary.com/dngetymia/image/upload/v1648187630/business-app/profile_eibjrm.jpg",
-    employer: "Galvanize",
-    role: "Instructor",
+    avatar: faker.image.avatar(),
+    employer: faker.company.companyName(),
+    role: "Software Engineer",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc",
   },
   {
-    name: "Eric",
+    name: faker.name.firstName(),
     linkedIn: "ericdo1",
-    avatar:
-      "https://res.cloudinary.com/dngetymia/image/upload/v1648187630/business-app/profile_eibjrm.jpg",
-    employer: "Galvanize",
-    role: "Instructor",
+    avatar: faker.image.avatar(),
+    employer: faker.company.companyName(),
+    role: "Software Engineer",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc, eget aliquam velit molestie vel. Donec ornare, ipsum in sagittis bibendum, tortor nulla dictum odio, nec efficitur eros eros vitae metus. Praesent non facilisis tellus.",
   }
@@ -79,32 +74,29 @@ const ReviewListCol2: ReviewItem[] = [
 
 const ReviewListCol3: ReviewItem[] = [
   {
-    name: "Eric",
+    name: faker.name.firstName(),
     linkedIn: "ericdo1",
-    avatar:
-      "https://res.cloudinary.com/dngetymia/image/upload/v1648187630/business-app/profile_eibjrm.jpg",
-    employer: "Galvanize",
-    role: "Instructor",
+    avatar: faker.image.avatar(),
+    employer: faker.company.companyName(),
+    role: "Software Engineer",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc",
   },
   {
-    name: "Eric",
+    name: faker.name.firstName(),
     linkedIn: "ericdo1",
-    avatar:
-      "https://res.cloudinary.com/dngetymia/image/upload/v1648187630/business-app/profile_eibjrm.jpg",
-    employer: "Galvanize",
-    role: "Instructor",
+    avatar: faker.image.avatar(),
+    employer: faker.company.companyName(),
+    role: "Software Engineer",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc, eget aliquam velit molestie vel. Donec ornare.",
   },
   {
-    name: "Eric",
+    name: faker.name.firstName(),
     linkedIn: "ericdo1",
-    avatar:
-      "https://res.cloudinary.com/dngetymia/image/upload/v1648187630/business-app/profile_eibjrm.jpg",
-    employer: "Galvanize",
-    role: "Instructor",
+    avatar: faker.image.avatar(),
+    employer: faker.company.companyName(),
+    role: "Software Engineer",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc, eget aliquam velit molestie vel. Donec ornare, ipsum in sagittis bibendum, tortor nulla dictum odio, nec efficitur eros eros vitae metus. Praesent non facilisis tellus.",
   }
