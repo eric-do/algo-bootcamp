@@ -1,0 +1,33 @@
+.sectionAlt {
+  background-color: var(--ifm-color-emphasis-100);
+  padding: 0 10%;
+}
+
+.sectionTitle {
+  font-size: 32px;
+}
+
+.sectionButton {
+  text-transform: uppercase;
+  border-radius: calc(var(--ifm-global-radius)/2);
+  height: 3.5rem;
+  margin: 5px;
+  width: 230px;
+}
+
+.buttonCTA {
+  text-transform: uppercase;
+  border-radius: calc(var(--ifm-global-radius)/2);
+  height: 3.6rem;
+  margin: 15px 0px;
+  width: 250px;
+}
+
+.bullet {
+  margin: 0.5rem 0;
+}
+
+.bulletIcon {
+  color: var(--ifm-color-primary);
+  margin-right: 5px;
+}
