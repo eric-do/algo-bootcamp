@@ -56,6 +56,11 @@ const config = {
             label: 'Bootcamp',
           },
           {
+            to: '/workshops',
+            label: 'Workshops',
+            position: 'left'
+          },
+          {
             to: '/blog',
             label: 'Blog',
             position: 'left'
