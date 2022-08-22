@@ -14,91 +14,100 @@ type ReviewItem = {
 
 const ReviewListCol1: ReviewItem[] = [
   {
-    name: faker.name.firstName(),
+    name: 'Keegan Leery',
     linkedIn: "ericdo1",
     avatar: faker.image.avatar(),
     employer: faker.company.companyName(),
     role: "Software Engineer",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc, eget aliquam velit molestie vel. Donec ornare, ipsum in sagittis bibendum, tortor nulla dictum odio, nec efficitur eros eros vitae metus. Praesent non facilisis tellus.",
+      "👏 Eric Do is really good at the Q&A sessions after lecture. He brings fresh examples to test our knowledge. I really appreciate this. Without the fresh examples, I think my learning would be degraded as opposed to recorded lectures.",
   },
   {
-    name: faker.name.firstName(),
+    name: 'Donna Szeto',
     linkedIn: "ericdo1",
     avatar: faker.image.avatar(),
     employer: faker.company.companyName(),
     role: "Software Engineer",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc, eget aliquam velit molestie vel. Donec ornare.",
+      "I think Eric's additional code and whiteboarding and always SO helpful to understanding the material more. I appreciate the extra examples he provides whenever we have the Q&A sessions.",
   },
   {
-    name: faker.name.firstName(),
+    name: 'Anonymous',
     linkedIn: "ericdo1",
     avatar: faker.image.avatar(),
     employer: faker.company.companyName(),
     role: "Software Engineer",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc",
+      "Eric Do was so kind, patient, and compassionate enough to host a last minute office hour. He saw that I was struggling greatly with my inner demons that made learning one-on-one extremely stressful and difficult. He was so accommodating to my ADHD made sure to follow my suggestion for how he could help me learn more effectively. I am truly so so grateful because I knew that despite how frustrating it might have been to see me not understand something seemingly simple, he maintained his empathetic and patient tone with me that prevented me from breaking out into tears from frustration and anxiety.",
   }
 ];
 
 const ReviewListCol2: ReviewItem[] = [
   {
-    name: faker.name.firstName(),
+    name: 'Fan Zhang',
     linkedIn: "ericdo1",
     avatar: faker.image.avatar(),
     employer: faker.company.companyName(),
     role: "Software Engineer",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc, eget aliquam velit molestie vel. Donec ornare.",
+      "Eric prepares well for the Q&A and always moves our understanding to the next level.",
   },
   {
-    name: faker.name.firstName(),
+    name: 'Neil Johnson',
     linkedIn: "ericdo1",
     avatar: faker.image.avatar(),
     employer: faker.company.companyName(),
     role: "Software Engineer",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc",
+      "I think the sessions are great and I love the whiteboarding that Eric does, so we have a better mental model of how things work.",
   },
   {
-    name: faker.name.firstName(),
+    name: 'Andy Luu',
     linkedIn: "ericdo1",
     avatar: faker.image.avatar(),
     employer: faker.company.companyName(),
     role: "Software Engineer",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc, eget aliquam velit molestie vel. Donec ornare, ipsum in sagittis bibendum, tortor nulla dictum odio, nec efficitur eros eros vitae metus. Praesent non facilisis tellus.",
-  }
+      "I'd like to give a high five to Eric for all the extra workshops, Q&A, and whiteboarding. They have been a wonderful learning experience and has helped me a lot!",
+  },
+  {
+    name: 'Stephen Ho',
+    linkedIn: "ericdo1",
+    avatar: faker.image.avatar(),
+    employer: faker.company.companyName(),
+    role: "Software Engineer",
+    review:
+      "I always appreciate Eric's extra lectures. His lectures are very clear and helps a lot in understanding the concepts.",
+  },
 ];
 
 const ReviewListCol3: ReviewItem[] = [
   {
-    name: faker.name.firstName(),
+    name: "Jessie Zhao",
     linkedIn: "ericdo1",
     avatar: faker.image.avatar(),
     employer: faker.company.companyName(),
     role: "Software Engineer",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc",
+      "Live lectures were great and so engaging!! I really appreciated the open conversation when lecturers would ask us questions and then have us solve problems live. There was one lecture in particular, with Eric walking us through the problem solving process, where I had to work thru the process with him during lecture. I had a lot of fun doing that (also felt some amt of pressure, but the good kind). I also felt like the live lectures were useful for answering questions in real time. ",
   },
   {
-    name: faker.name.firstName(),
+    name: "Shawn Oh",
     linkedIn: "ericdo1",
     avatar: faker.image.avatar(),
     employer: faker.company.companyName(),
     role: "Software Engineer",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc, eget aliquam velit molestie vel. Donec ornare.",
+      "Eric! His review of my self assessment and the optional recursion workshop actually helped me understand recursion on a deeper level. Super patient with me and an absolute saint.",
   },
   {
-    name: faker.name.firstName(),
+    name: "Quargs Greene",
     linkedIn: "ericdo1",
     avatar: faker.image.avatar(),
     employer: faker.company.companyName(),
     role: "Software Engineer",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue tellus lectus, sit amet iaculis neque efficitur et. Aliquam pulvinar lobortis nunc, eget aliquam velit molestie vel. Donec ornare, ipsum in sagittis bibendum, tortor nulla dictum odio, nec efficitur eros eros vitae metus. Praesent non facilisis tellus.",
+      "Eric Do. He helped me reach some lightbulb moments which gave me some insight I had never fully had before about why I've had so many issues with tests and following directions in educational settings my whole life.",
   }
 ];
 
