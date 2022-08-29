@@ -56,6 +56,11 @@ const config = {
             label: 'Bootcamp',
           },
           {
+            to: '/workshops',
+            label: 'Workshops',
+            position: 'left'
+          },
+          {
             to: '/blog',
             label: 'Blog',
             position: 'left'
@@ -80,7 +85,7 @@ const config = {
               },
               {
                 label: 'Workshops',
-                to: '/docs/workshops',
+                to: '/workshops',
               },
             ],
           },
