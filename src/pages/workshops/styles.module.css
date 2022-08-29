@@ -1,0 +1,8 @@
+.formContainer {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.formInput {
+  width: 100%;
+
+}
