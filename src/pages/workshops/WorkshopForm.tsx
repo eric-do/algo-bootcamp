@@ -15,10 +15,14 @@ type Inputs = {
 const phoneRegex = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
 
 const schema = z.object({
-  fullname: z.string(),
-  session: z.enum(["React", "Fullstack", "Office hour"]),
-  phone: z.string().regex(phoneRegex),
-  email: z.string().email()
+  fullname: z.string().min(1, {
+    message: "Name is required"
+  }),
+  session: z.enum(["react", "fullstack", "office-hour"]),
+  email: z.string().email(),
+  phone: z.string().regex(phoneRegex, {
+    message: "Invalid phone number format"
+  }),
 });
 
 const WorkshopForm = () => {
@@ -30,14 +34,14 @@ const WorkshopForm = () => {
     resolver: zodResolver(schema)
   });
   const onSubmit: SubmitHandler<Inputs> = d => console.log(d);
-
+  console.log(errors.fullname, errors.session)
   return (
     <div className={clsx("card", styles.formContainer)}>
       <div className="card__header">
         <h3>Contact me</h3>
       </div>
         <form onSubmit={handleSubmit(onSubmit)}>
-          <div className="card__body">
+          <div className={clsx("card__body", styles.formInputs)}>
               <label>
                 Full name
                 <br />
@@ -45,17 +49,21 @@ const WorkshopForm = () => {
                   className={clsx(styles.formInput)}
                   {...register('fullname')}
                 />
+                {errors.fullname?.message && <p className={clsx(styles.formError)}>{errors.fullname?.message}</p>}
               </label>
-              {errors.fullname?.message && <p>{errors.fullname?.message}</p>}
               <label>
                 Session
                 <br />
-                <input
+                <select
                   className={clsx(styles.formInput)}
-                  {...register('fullname')}
-                />
+                  {...register('session')}
+                >
+                  <option value="react">React workshop</option>
+                  <option value="fullstack">Fullstack workshop</option>
+                  <option value="office-hour">Office hour</option>
+                </select>
+                {errors.session?.message && <p className={clsx(styles.formError)}>{errors.session?.message}</p>}
               </label>
-              {errors.session?.message && <p>{errors.session?.message}</p>}
               <label>
                 Email
                 <br />
@@ -63,19 +71,20 @@ const WorkshopForm = () => {
                   className={clsx(styles.formInput)}
                   {...register('email')}
                 />
+                {errors.email?.message && <p className={clsx(styles.formError)}>{errors.email?.message}</p>}
               </label>
-              {errors.email?.message && <p>{errors.email?.message}</p>}
               <label>
                 Phone number
                 <br />
                 <input
+                  type='number'
                   className={clsx(styles.formInput)}
                   {...register('phone')}
                 />
+                {errors.phone?.message &&<p className={clsx(styles.formError)}>{errors.phone?.message}</p>}
               </label>
-              {errors.phone?.message && <p>{errors.phone?.message}</p>}
           </div>
-          <div className="card__footer">
+          <div className={clsx("card__footer", styles.formFooter)}>
             <input
               type="submit"
               className="button button--primary button--block"

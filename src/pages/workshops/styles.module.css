@@ -2,7 +2,22 @@
   background-color: var(--ifm-color-emphasis-100);
 }
 
+.formInputs {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
 .formInput {
   width: 100%;
+}
 
+.formError {
+  position: absolute;
+  color: red;
+  font-size: 0.8em;
+}
+
+.formFooter {
+  margin-top: 15px;
 }
