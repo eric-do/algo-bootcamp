@@ -6,15 +6,16 @@ sidebar_position: 5
 
 ## Assessment
 
-Upon submission of your request to enroll, we will send you a coding challenge for basic assessment of fundamental coding concepts. This should take you no longer than an hour.
+Upon submission of your request to enroll, I will send you a coding challenge for basic assessment of fundamental coding concepts. This should take you no longer than an hour.
 
 Your submission of the assessment should be done no later than 1 week before the start of the cohort.
 
 You may be asked to fix your code as a condition of joining the cohort.
 
-We expect to see:
-- Good coding practices, including variable and function names
-- Basic tests (console logs showing edge cases are fine)
+I expect to see:
+- Modular and reusable functions
+- Clear variable names
+- Attention to detail and styling
 
 ## Enrollment confirmation
 

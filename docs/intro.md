@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # Upcoming cohorts
 
-Algo Bootcamp intentionally runs every 6 weeks, coinciding with the completion of many fullstack bootcamps.
+Algo Bootcamp runs every 6 weeks in order to coincide with the completion of many fullstack bootcamps.
 
-The intention is if you're wrapping up a bootcamp, you can go directly into algorithm study while momentum is still high! 🙌
+The intention is if you're wrapping up a bootcamp, you can go directly into algorithm study while momentum is high.
 
 | Cohort  | Start date | End date  | Register by  |
 |---|---|---|---|
