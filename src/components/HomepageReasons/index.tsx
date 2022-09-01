@@ -37,8 +37,8 @@ const HomepageReasons = () => {
 
   return (
     <section className={clsx(
-      'section',
-      styles.sectionAlt
+      'section padding-bottom--lg padding-top--lg',
+      styles.sectionAlt,
     )}>
       <div className="section--inner section--center">
         <h2 className={clsx("text--center margin-bottom--lg", styles.sectionTitle)}>
@@ -82,15 +82,6 @@ const HomepageReasons = () => {
                   </div>
                 ))
               }
-              <button
-              className={clsx(
-                'button',
-                'button--primary',
-                styles.buttonCTA
-                )}
-              >
-                {`Apply >`}
-              </button>
             </div>
             <div className="col col--6">
               {
@@ -109,6 +100,15 @@ const HomepageReasons = () => {
                 ))
               }
             </div>
+            <button
+              className={clsx(
+                'button',
+                'button--primary',
+                styles.buttonCTA
+                )}
+              >
+                {`Apply >`}
+              </button>
           </div>
         </div>
       </div>

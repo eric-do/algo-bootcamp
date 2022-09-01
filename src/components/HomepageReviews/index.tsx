@@ -16,7 +16,7 @@ const ReviewListCol1: ReviewItem[] = [
   {
     name: 'Keegan Leery',
     linkedIn: "ericdo1",
-    avatar: faker.image.avatar(),
+    avatar: 'https://media-exp1.licdn.com/dms/image/C5603AQHOSMM1OpiA0A/profile-displayphoto-shrink_100_100/0/1654536820963?e=1667433600&v=beta&t=vqNzkAIk2VY8fDBJGajrpaFhCE9hS5tQRH2ngR5hNj8',
     employer: faker.company.companyName(),
     role: "Software Engineer",
     review:
@@ -25,7 +25,7 @@ const ReviewListCol1: ReviewItem[] = [
   {
     name: 'Donna Szeto',
     linkedIn: "ericdo1",
-    avatar: faker.image.avatar(),
+    avatar: "https://media-exp1.licdn.com/dms/image/C5603AQFTuorPMKgPdw/profile-displayphoto-shrink_100_100/0/1658525865243?e=1667433600&v=beta&t=-Z66oKEdMNu0Q8HTZChyY9gk5ntloYJqMMXln0GR3wY",
     employer: faker.company.companyName(),
     role: "Software Engineer",
     review:
@@ -46,7 +46,7 @@ const ReviewListCol2: ReviewItem[] = [
   {
     name: 'Fan Zhang',
     linkedIn: "ericdo1",
-    avatar: faker.image.avatar(),
+    avatar: "https://media-exp1.licdn.com/dms/image/C4D03AQGgiiqdAGpWZA/profile-displayphoto-shrink_100_100/0/1597996220350?e=1667433600&v=beta&t=yEltTZS35hE1VOp_UeJn0aKiRMwLnAc1u8UA26xPFlI",
     employer: faker.company.companyName(),
     role: "Software Engineer",
     review:
@@ -55,7 +55,7 @@ const ReviewListCol2: ReviewItem[] = [
   {
     name: 'Neil Johnson',
     linkedIn: "ericdo1",
-    avatar: faker.image.avatar(),
+    avatar: "https://media-exp1.licdn.com/dms/image/D5635AQG5HttWFINmWQ/profile-framedphoto-shrink_100_100/0/1656789751526?e=1662598800&v=beta&t=1oNu5iAMVjBTT72jinjr1iHtxl3NuLr5WpGGWSZZiS0",
     employer: faker.company.companyName(),
     role: "Software Engineer",
     review:
@@ -64,7 +64,7 @@ const ReviewListCol2: ReviewItem[] = [
   {
     name: 'Andy Luu',
     linkedIn: "ericdo1",
-    avatar: faker.image.avatar(),
+    avatar: "https://media-exp1.licdn.com/dms/image/D5635AQFnarqHFrbg8g/profile-framedphoto-shrink_100_100/0/1657134033461?e=1662598800&v=beta&t=gNa3d-qJMcdJrOKftoS77Y_SQWP7YJ4ESkRqCFAoKpw",
     employer: faker.company.companyName(),
     role: "Software Engineer",
     review:
@@ -85,7 +85,7 @@ const ReviewListCol3: ReviewItem[] = [
   {
     name: "Jessie Zhao",
     linkedIn: "ericdo1",
-    avatar: faker.image.avatar(),
+    avatar: "https://media-exp1.licdn.com/dms/image/C5603AQEbDe_R5fBowg/profile-displayphoto-shrink_100_100/0/1657733716268?e=1667433600&v=beta&t=lFQRFQHZ79xLdLZtnwuyl3JK2-SsDF_rROYT-WxbwLo",
     employer: faker.company.companyName(),
     role: "Software Engineer",
     review:
@@ -103,7 +103,7 @@ const ReviewListCol3: ReviewItem[] = [
   {
     name: "Quargs Greene",
     linkedIn: "ericdo1",
-    avatar: faker.image.avatar(),
+    avatar: "https://media-exp1.licdn.com/dms/image/C5603AQEbUhaEhK3IYw/profile-displayphoto-shrink_100_100/0/1644203453827?e=1667433600&v=beta&t=MT_9X2OxIlKC0qrDLs3yAh0_cWNo1dzHSgJopI6HpQ0",
     employer: faker.company.companyName(),
     role: "Software Engineer",
     review:

@@ -20,9 +20,12 @@ const schema = z.object({
   }),
   session: z.enum(["react", "fullstack", "office-hour"]),
   email: z.string().email(),
-  phone: z.string().regex(phoneRegex, {
-    message: "Invalid phone number format"
-  }),
+  phone: z
+          .string()
+          .regex(phoneRegex, {
+            message: "Invalid phone number format"
+          })
+          .optional(),
 });
 
 const WorkshopForm = () => {
@@ -47,6 +50,7 @@ const WorkshopForm = () => {
                 <br />
                 <input
                   className={clsx(styles.formInput)}
+                  placeholder='e.g. John Smith'
                   {...register('fullname')}
                 />
                 {errors.fullname?.message && <p className={clsx(styles.formError)}>{errors.fullname?.message}</p>}
@@ -69,6 +73,7 @@ const WorkshopForm = () => {
                 <br />
                 <input
                   className={clsx(styles.formInput)}
+                  placeholder='e.g. user@mail.com'
                   {...register('email')}
                 />
                 {errors.email?.message && <p className={clsx(styles.formError)}>{errors.email?.message}</p>}
@@ -77,7 +82,8 @@ const WorkshopForm = () => {
                 Phone number
                 <br />
                 <input
-                  type='number'
+                  type='tel'
+                  placeholder="e.g. 555-555-5555"
                   className={clsx(styles.formInput)}
                   {...register('phone')}
                 />
